@@ -1,5 +1,5 @@
-from urllib.parse import urlsplit, parse_qs, unquote
 from pathlib import Path
+from urllib.parse import urlsplit, parse_qsl
 import hashlib
 import re
 
@@ -8,83 +8,85 @@ OUTPUT = Path("output/unique.txt")
 STATS = Path("output/dedup_stats.txt")
 
 
-def normalize_host(host):
-    host = host.strip().lower()
+SCHEMES = {
+    "vless",
+    "vmess",
+    "trojan",
+    "ss",
+    "ssr",
+    "hysteria",
+    "hysteria2",
+    "hy2",
+    "tuic",
+}
 
-    # IPv6 в URL может быть записан в квадратных скобках.
-    if host.startswith("[") and host.endswith("]"):
-        host = host[1:-1]
 
-    return host
+# Эти параметры обычно не делают отдельный сервер.
+IGNORED_PARAMS = {
+    "fp",
+    "fingerprint",
+}
 
 
-def fingerprint(config):
-    """
-    Создаём идентификатор endpoint'а.
+def normalize(value):
+    return value.strip().lower()
 
-    Нам важно не считать разными серверами варианты,
-    отличающиеся только второстепенными параметрами.
-    """
 
+def make_fingerprint(config):
     try:
         parsed = urlsplit(config)
 
-        scheme = parsed.scheme.lower()
-        host = normalize_host(parsed.hostname or "")
+        scheme = normalize(parsed.scheme)
+        host = normalize(parsed.hostname or "")
         port = parsed.port or ""
 
-        query = parse_qs(parsed.query)
-
-        # Параметры, которые часто меняют внешний вид URI,
-        # но не обязательно означают другой endpoint.
-        ignored = {
-            "fp",
-            "fingerprint",
-            "remark",
-            "name",
-            "ps",
-            "comment",
-        }
-
-        normalized_query = []
-
-        for key in sorted(query):
-            if key.lower() in ignored:
-                continue
-
-            values = sorted(
-                unquote(v).strip()
-                for v in query[key]
-            )
-
-            for value in values:
-                normalized_query.append(
-                    f"{key.lower()}={value}"
-                )
-
-        # Userinfo сохраняем, потому что UUID/password
-        # обычно является частью идентичности конфигурации.
         username = parsed.username or ""
         password = parsed.password or ""
 
-        identity = "|".join([
+        params = parse_qsl(
+            parsed.query,
+            keep_blank_values=True
+        )
+
+        normalized_params = []
+
+        for key, value in params:
+            key = normalize(key)
+
+            if key in IGNORED_PARAMS:
+                continue
+
+            normalized_params.append(
+                (
+                    key,
+                    value.strip()
+                )
+            )
+
+        normalized_params.sort()
+
+        identity = [
             scheme,
-            username,
-            password,
             host,
             str(port),
-            "&".join(normalized_query),
-        ])
+            username,
+            password,
+        ]
+
+        identity.extend(
+            f"{key}={value}"
+            for key, value in normalized_params
+        )
+
+        raw_identity = "|".join(identity)
 
         return hashlib.sha256(
-            identity.encode("utf-8")
+            raw_identity.encode()
         ).hexdigest()
 
     except Exception:
-        # Если URI не удалось разобрать,
-        # оставляем его уникальным по полной строке.
         return hashlib.sha256(
-            config.encode("utf-8")
+            config.encode()
         ).hexdigest()
 
 
@@ -101,9 +103,9 @@ for line in INPUT.read_text(
         continue
 
     if not re.match(
-        r"^(vless|vmess|trojan|ss|ssr|hysteria2?|hy2|tuic)://",
+        r"^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|hy2|tuic)://",
         line,
-        re.I
+        re.IGNORECASE
     ):
         continue
 
@@ -113,25 +115,25 @@ for line in INPUT.read_text(
 groups = {}
 
 for config in configs:
-    key = fingerprint(config)
+    key = make_fingerprint(config)
 
     if key not in groups:
         groups[key] = config
 
 
-unique = list(groups.values())
+unique = sorted(groups.values())
 
-unique.sort()
 
 OUTPUT.write_text(
     "\n".join(unique) + "\n",
     encoding="utf-8"
 )
 
+
 stats = [
     f"Input configs: {len(configs)}",
     f"Unique endpoints: {len(unique)}",
-    f"Removed as duplicates: {len(configs) - len(unique)}",
+    f"Removed duplicates: {len(configs) - len(unique)}",
 ]
 
 STATS.write_text(
@@ -140,4 +142,4 @@ STATS.write_text(
 )
 
 print("\n".join(stats))
-      
+        

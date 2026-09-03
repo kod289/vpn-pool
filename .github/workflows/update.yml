@@ -26,8 +26,10 @@ jobs:
 
       - name: Deduplicate configs
         run: python deduplicate.py
-
-
+      
+      - name: Check TCP reachability
+        run: python check_configs.py
+  
       - name: Commit results
         run: |
           git config user.name "vpn-pool-bot"

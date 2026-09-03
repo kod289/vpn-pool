@@ -24,6 +24,10 @@ jobs:
       - name: Collect configs
         run: python collector.py
 
+      - name: Deduplicate configs
+        run: python deduplicate.py
+
+
       - name: Commit results
         run: |
           git config user.name "vpn-pool-bot"

@@ -2,15 +2,16 @@ from pathlib import Path
 from urllib.parse import urlsplit
 import socket
 import concurrent.futures
-import re
+import time
 
 INPUT = Path("output/unique.txt")
 ALIVE = Path("output/reachable.txt")
 DEAD = Path("output/unreachable.txt")
 STATS = Path("output/check_stats.txt")
 
-TIMEOUT = 5
-WORKERS = 30
+TIMEOUT = 3
+WORKERS = 50
+RETRIES = 2
 
 
 def get_endpoint(config):
@@ -29,29 +30,52 @@ def get_endpoint(config):
         return None
 
 
-def check(config):
-    endpoint = get_endpoint(config)
-
-    if not endpoint:
-        return config, False, "invalid"
-
-    host, port = endpoint
+def check_once(host, port):
+    started = time.perf_counter()
 
     try:
         with socket.create_connection(
             (host, port),
             timeout=TIMEOUT
         ):
-            return config, True, "tcp_ok"
+            latency = (time.perf_counter() - started) * 1000
+            return True, latency, "tcp_ok"
 
     except socket.timeout:
-        return config, False, "timeout"
+        return False, None, "timeout"
 
     except OSError as e:
-        return config, False, type(e).__name__
+        return False, None, type(e).__name__
 
     except Exception as e:
-        return config, False, type(e).__name__
+        return False, None, type(e).__name__
+
+
+def check(config):
+    endpoint = get_endpoint(config)
+
+    if not endpoint:
+        return config, False, None, "invalid"
+
+    host, port = endpoint
+
+    best_latency = None
+    last_reason = "unknown"
+
+    for attempt in range(RETRIES + 1):
+        ok, latency, reason = check_once(host, port)
+
+        if ok:
+            if best_latency is None or latency < best_latency:
+                best_latency = latency
+
+            # Одного успешного соединения достаточно,
+            # но продолжаем не нужно.
+            return config, True, best_latency, "tcp_ok"
+
+        last_reason = reason
+
+    return config, False, None, last_reason
 
 
 configs = [
@@ -65,8 +89,12 @@ configs = [
 
 alive = []
 dead = []
+results = []
 
-print(f"Checking {len(configs)} endpoints...")
+print(
+    f"Checking {len(configs)} endpoints "
+    f"(timeout={TIMEOUT}s, retries={RETRIES})..."
+)
 
 with concurrent.futures.ThreadPoolExecutor(
     max_workers=WORKERS
@@ -81,7 +109,11 @@ with concurrent.futures.ThreadPoolExecutor(
         concurrent.futures.as_completed(futures),
         start=1
     ):
-        config, ok, reason = future.result()
+        config, ok, latency, reason = future.result()
+
+        results.append(
+            (config, ok, latency, reason)
+        )
 
         if ok:
             alive.append(config)
@@ -100,23 +132,48 @@ alive.sort()
 dead.sort()
 
 ALIVE.write_text(
-    "\n".join(alive) + "\n",
+    "\n".join(alive) + ("\n" if alive else ""),
     encoding="utf-8"
 )
 
 DEAD.write_text(
-    "\n".join(dead) + "\n",
+    "\n".join(dead) + ("\n" if dead else ""),
     encoding="utf-8"
 )
+
+
+latencies = [
+    latency
+    for _, ok, latency, _ in results
+    if ok and latency is not None
+]
+
+latencies.sort()
+
+if latencies:
+    avg_latency = sum(latencies) / len(latencies)
+    min_latency = latencies[0]
+    max_latency = latencies[-1]
+else:
+    avg_latency = 0
+    min_latency = 0
+    max_latency = 0
+
 
 stats = [
     f"Input endpoints: {len(configs)}",
     f"TCP reachable: {len(alive)}",
     f"TCP unreachable: {len(dead)}",
-    f"Reachable percentage: "
-    f"{(len(alive) / len(configs) * 100):.1f}%"
-    if configs else
-    "Reachable percentage: 0%",
+    (
+        f"Reachable percentage: "
+        f"{(len(alive) / len(configs) * 100):.1f}%"
+        if configs
+        else
+        "Reachable percentage: 0%"
+    ),
+    f"Average latency: {avg_latency:.0f} ms",
+    f"Minimum latency: {min_latency:.0f} ms",
+    f"Maximum latency: {max_latency:.0f} ms",
 ]
 
 STATS.write_text(
@@ -126,4 +183,3 @@ STATS.write_text(
 
 print()
 print("\n".join(stats))
-          

@@ -27,6 +27,9 @@ jobs:
       - name: Deduplicate configs
         run: python deduplicate.py
         
+      - name: Filter configs
+        run: python filter.py
+        
       - name: Generate subscriptions
         run: python generate.py
   

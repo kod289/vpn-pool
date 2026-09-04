@@ -30,6 +30,9 @@ jobs:
       - name: Filter configs
         run: python filter.py
         
+      - name: Quality filter
+        run: python quality_filter.py
+  
       - name: Generate subscriptions
         run: python generate.py
   

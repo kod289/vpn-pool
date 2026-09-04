@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>VPN Pool</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background: #0d1117;
+            color: #c9d1d9;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        main {
+            max-width: 760px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        .card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        a {
+            display: block;
+            color: #58a6ff;
+            text-decoration: none;
+            padding: 8px 0;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            color: #8b949e;
+        }
+    </style>
+</head>
+
+<body>
+
+<main>
+
+    <h1>VPN Pool</h1>
+
+    <p>
+        Automatically collected and filtered VPN configurations.
+    </p>
+
+    <div class="card">
+
+        <h2>Subscriptions</h2>
+
+        <a href="./output/subscriptions/all.txt">
+            All protocols
+        </a>
+
+        <a href="./output/subscriptions/vless.txt">
+            VLESS
+        </a>
+
+        <a href="./output/subscriptions/vmess.txt">
+            VMess
+        </a>
+
+        <a href="./output/subscriptions/trojan.txt">
+            Trojan
+        </a>
+
+        <a href="./output/subscriptions/shadowsocks.txt">
+            Shadowsocks
+        </a>
+
+        <a href="./output/subscriptions/hysteria.txt">
+            Hysteria
+        </a>
+
+        <a href="./output/subscriptions/hysteria2.txt">
+            Hysteria 2
+        </a>
+
+        <a href="./output/subscriptions/tuic.txt">
+            TUIC
+        </a>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Diagnostics</h2>
+
+        <a href="./output/reachable.txt">
+            TCP reachable
+        </a>
+
+        <a href="./output/unreachable.txt">
+            TCP unreachable
+        </a>
+
+        <a href="./output/check_stats.txt">
+            Check statistics
+        </a>
+
+    </div>
+
+</main>
+
+</body>
+</html>

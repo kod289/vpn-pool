@@ -32,12 +32,12 @@ jobs:
         
       - name: Quality filter
         run: python quality_filter.py
+        
+      - name: Check TCP reachability
+        run: python check_configs.py
   
       - name: Generate subscriptions
         run: python generate.py
-  
-      - name: Check TCP reachability
-        run: python check_configs.py
   
       - name: Commit results
         run: |

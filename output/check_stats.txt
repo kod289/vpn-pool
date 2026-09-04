@@ -1,4 +1,4 @@
 Input endpoints: 647
-TCP reachable: 389
-TCP unreachable: 258
-Reachable percentage: 60.1%
+TCP reachable: 388
+TCP unreachable: 259
+Reachable percentage: 60.0%

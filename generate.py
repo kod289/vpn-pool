@@ -3,7 +3,7 @@ from urllib.parse import urlsplit
 import base64
 import re
 
-INPUT = Path("output/quality.txt")
+INPUT = Path("output/reachable.txt")
 OUT = Path("output/subscriptions")
 
 OUT.mkdir(parents=True, exist_ok=True)

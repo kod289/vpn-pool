@@ -26,7 +26,10 @@ jobs:
 
       - name: Deduplicate configs
         run: python deduplicate.py
-      
+        
+      - name: Generate subscriptions
+        run: python generate.py
+  
       - name: Check TCP reachability
         run: python check_configs.py
   

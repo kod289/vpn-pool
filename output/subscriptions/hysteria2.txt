@@ -1,1 +1,8 @@
-hysteria2://29c2de1cf5408523ed4d3252199079d2@108.59.244.158:443?insecure=1&sni=vk.ru#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20New%20York%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@cool-route-ge.whit3.net:443?sni=cool-route-ge.whit3.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@have.whit3.net:443?sni=have.whit3.net#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@just-do-it.whit3.net:443?sni=just-do-it.whit3.net#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@nice-route-nl.whit3.net:443?sni=nice-route-nl.whit3.net#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@nice-route-us.whit3.net:443?sni=nice-route-us.whit3.net#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20New%20York%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@register.whit3.net:443?sni=register.whit3.net#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@uoi.whit3.net:443?sni=uoi.whit3.net#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
+hysteria2://3b8c82ed-fe66-472d-915e-034ccb57103f@labs.frkn.org:443?insecure=1&sni=labs.frkn.org#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D

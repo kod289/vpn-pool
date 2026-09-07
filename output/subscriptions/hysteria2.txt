@@ -1,3 +1,3 @@
-hysteria2://3b8c82ed-fe66-472d-915e-034ccb57103f@labs.frkn.org:443?sni=labs.frkn.org&insecure=1#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D
-hysteria2://gf1%3Agfhysteria2024@173.212.201.85:443?insecure=1&sni=173.212.201.85#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Munich%20%28Ramersdorf-Perlach%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://https%3A%2F%2Fxship.2fa.cat@starlink-ft.251313.xyz:443?insecure=1&sni=xship.top#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+hysteria2://395fbe10db53714e6128c77c3de39694@194.87.55.90:443?insecure=1&sni=vkvideo.ru#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+hysteria2://8645697d-51c1-4e90-aca5-ba63a0392f11@cze-01.node.lumixnet.com:443?sni=cze-01.node.lumixnet.com&insecure=0&allowInsecure=0#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D
+hysteria2://cf5282e985104cb2f5b7ad111a580e2e@108.59.244.158:443?insecure=1&sni=www.kinopoisk.ru#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20New%20York%20%7C%20%5BBL%5D

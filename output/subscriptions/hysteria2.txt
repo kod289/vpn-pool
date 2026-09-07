@@ -1,2 +1,6 @@
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@cool-route-ge.whit3.net:443?sni=cool-route-ge.whit3.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@good-route.whit3.net:443?sni=good-route.whit3.net#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%28%C5%9Ar%C3%B3dmie%C5%9Bcie%29%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@idontknow.whit3.net:443?sni=idontknow.whit3.net#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@just-do-it.whit3.net:443?sni=just-do-it.whit3.net#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+hysteria2://1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a@lastchance.whit3.net:443?sni=lastchance.whit3.net#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
 hysteria2://3b8c82ed-fe66-472d-915e-034ccb57103f@labs.frkn.org:443?sni=labs.frkn.org&insecure=1#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D
-hysteria2://8645697d-51c1-4e90-aca5-ba63a0392f11@cze-01.node.lumixnet.com:443?sni=cze-01.node.lumixnet.com&insecure=0&allowInsecure=0#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D

@@ -1,4 +1,5 @@
 trojan://BxceQaOe@100.42.228.109:443/?type=tcp&security=tls&sni=t.me%2Fripaojiedian&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Guilin%20%7C%20%5BBL%5D
-trojan://UQfj7bdfjibTjpUHfg72aew51S7fB32g@littoral.appagent.net:443?type=raw&security=tls&fp=android#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%5BBL%5D
-trojan://UQfj7bdfjibTjpUHfg72aew51S7fB32g@littoral.appagent.net:443?type=raw&security=tls&sni=littoral.appagent.net#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%5BBL%5D
 trojan://e_f58PfEaEC5nQCPQvjoLw@66.23.207.69:443?security=none&type=ws&headerType=&path=%2F&host=telegram.org#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Chicago%20%7C%20%5BBL%5D
+trojan://kakashka13222@194.9.172.236:1105?allowInsecure=1&insecure=1&type=tcp&security=tls#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Lyon%20%7C%20%5BBL%5D
+trojan://kakashka13222@194.9.172.236:1105?security=tls&sni=194.9.172.236&insecure=1&allowInsecure=1&type=tcp&headerType=none&fp=android#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Lyon%20%7C%20%5BBL%5D
+trojan://trojan@104.18.12.229:8443?security=tls&allowInsecure=1&sni=longwanghen.pages.dev&type=ws&host=&path=%2F&fp=&alpn=#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D

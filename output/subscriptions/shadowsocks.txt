@@ -66,6 +66,7 @@ ss://61fc8051-06d6-4256-8425-320c047fc739@104.17.148.22:443?mode=auto&path=%2F&s
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.254.140.30:8880?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=vms.lifetime54.workers.dev&path=%2F&security=none&type=ws#🇺🇸
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@155.46.167.30:8880?type=ws&host=vms.lifetime50.workers.dev&path=#🇨🇦
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@45.40.149.50:8880?type=ws&host=vms.lifetime39.workers.dev&path=/?ed=2560#🇸🇬
+ss://6d0023ce-5c13-47ed-8e0e-a7b00ebce31a@britain.lorluma.ir:6300?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=qq&type=tcp&sni=play.google.com#%40MARAMBASHI%20%F0%9F%92%9C
 ss://72d1797c-cef8-410a-b8fd-db9104dc3cb0@104.18.45.137:443?encryption=none&host=amooaliii.net&path=%2Fjdhfyws&security=tls&sni=amooaliii.net&type=ws#🇫🇷
 ss://73fa8e4d-ac5a-4a02-920f-578f1400adb8@104.17.223.228:80?path=%2FIn_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh&security=none&encryption=none&host=zeus-panel-68epin.zeus-ptuvnx.workers.dev&fp=ios&type=ws&sni=zeus-panel-68epin.zeus-ptuvnx.workers.dev#Tel-%40Alpha_V2rayip%F0%9F%98%8F%202
 ss://77777777-8a3e-6666-b6d1-a9c5f0e8b3a2@104.16.150.246:2087?path=%2F&security=tls&encryption=none&insecure=0&host=fgnix832fx.fx6hsv0.ccwu.cc&type=ws&allowInsecure=0&sni=fgnix832fx.fx6hsv0.ccwu.cc#🇺🇸

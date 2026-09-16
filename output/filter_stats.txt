@@ -1,3 +1,3 @@
-Input: 947
-Clean: 766
-Removed: 181
+Input: 850
+Clean: 729
+Removed: 121

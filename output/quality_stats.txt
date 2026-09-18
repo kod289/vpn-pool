@@ -1,8 +1,6 @@
-Input: 653
-Quality OK: 643
-Removed: 10
+Input: 595
+Quality OK: 591
+Removed: 4
 
 Reasons:
-bad_security: 6
-bad_transport: 3
-reality_no_sni: 1
+bad_transport: 4

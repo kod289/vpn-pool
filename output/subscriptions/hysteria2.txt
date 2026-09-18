@@ -1,5 +1,0 @@
-hysteria2://f89c89df-905c-4df3-ab07-4f1a37a81005@cdn.fastline-labs.com:443?insecure=1&sni=cdn.fastline-labs.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
-hysteria2://f89c89df-905c-4df3-ab07-4f1a37a81005@cdn.fastline-labs.com:443?security=tls&sni=cdn.fastline-labs.com&allowInsecure=true&alpn=h3#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
-hysteria2://f89c89df-905c-4df3-ab07-4f1a37a81005@files.fastline-labs.com:443?security=tls&sni=files.fastline-labs.com&allowInsecure=true&alpn=h3#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
-hysteria2://f89c89df-905c-4df3-ab07-4f1a37a81005@files.fastline-labs.com:443?sni=files.fastline-labs.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
-hysteria2://f89c89df-905c-4df3-ab07-4f1a37a81005@git.fastline-labs.com:443?security=tls&sni=git.fastline-labs.com&allowInsecure=true&alpn=h3#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5BBL%5D

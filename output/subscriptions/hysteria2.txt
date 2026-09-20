@@ -1,1 +1,1 @@
-hysteria2://1027576c-c4df-4277-b3ef-38d3213b6574@161.118.253.238:443?insecure=1&sni=www.bing.com#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Loyang%29%20%7C%20%5BBL%5D
+hysteria2://7c5566a7-4b55-4659-975f-06507d32fd3f@ltu-01.node.lumixnet.com:443?sni=ltu-01.node.lumixnet.com#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%7C%20%5BBL%5D

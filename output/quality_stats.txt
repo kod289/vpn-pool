@@ -1,6 +1,6 @@
-Input: 608
-Quality OK: 605
-Removed: 3
+Input: 625
+Quality OK: 620
+Removed: 5
 
 Reasons:
-bad_transport: 3
+bad_transport: 5

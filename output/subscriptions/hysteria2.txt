@@ -1,2 +1,2 @@
-hysteria2://axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2@80.66.89.184:443?security=tls&sni=admin.wwwinternetvideo.click&alpn=h3&insecure=0#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20%F0%9F%87%B5%F0%9F%87%B1%20%7C%20%5BBL%5D
-hysteria2://axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2@80.66.89.220:443?security=tls&sni=dns-a.hyvps.sbs&alpn=h3&insecure=0#%F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Rome%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+hysteria2://19f72087-4591-4d72-930b-2697078ec2be@ru.xiaoliyu.cyou:18333?sni=ru.xiaoliyu.cyou&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+hysteria2://4ffc5c57-3242-4422-88de-25fb0f7e97bc@13.143.232.86:443/?sni=media.pantera-radio.ru#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%5BBL%5D

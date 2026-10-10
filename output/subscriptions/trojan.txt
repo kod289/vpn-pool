@@ -1,1 +1,1 @@
-trojan://KiUXpE53Xd@www.7770031.xyz:39493?type=tcp&security=tls&sni=www.7770031.xyz&fp=android#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+trojan://aec8e5e3-bb81-4b22-8802-0b88c54997b3@rb1211-4.vatilon.cc:10003?type=tcp&security=tls&fp=chrome&sni=rb1211-4.vatilon.cc#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20San%20Jose%20%7C%20%5BBL%5D

@@ -1,5 +1,11 @@
+hysteria2://dd1b14f6-d290-428b-8d22-12105541c4c9@138.16.143.47:443?sni=ne13847.cdn-video.pro#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
+hysteria2://dd1b14f6-d290-428b-8d22-12105541c4c9@167.104.216.230:443?sni=fr167230.cdn-video.pro#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Aubervilliers%20%7C%20%5BBL%5D
 hysteria2://dd1b14f6-d290-428b-8d22-12105541c4c9@45.141.202.174:443?sni=ne45174.cdn-video.pro#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Zoetermeer%20%7C%20%5BBL%5D
 hysteria2://dd1b14f6-d290-428b-8d22-12105541c4c9@fr167230.cdn-video.pro:443?sni=fr167230.cdn-video.pro#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Aubervilliers%20%7C%20%5BBL%5D
 hysteria2://dd1b14f6-d290-428b-8d22-12105541c4c9@ne13847.cdn-video.pro:443?sni=ne13847.cdn-video.pro#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
 hysteria2://dd1b14f6-d290-428b-8d22-12105541c4c9@ne45174.cdn-video.pro:443?sni=ne45174.cdn-video.pro#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Zoetermeer%20%7C%20%5BBL%5D
+hysteria2://dd1b14f6-d290-428b-8d22-12105541c4c9@sg45199.cdn-video.pro:443?sni=sg45199.cdn-video.pro#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Queenstown%20Estate%29%20%7C%20%5BBL%5D
+hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?alpn=h3&insecure=1&security=tls#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?insecure=1&sni=91.196.32.163#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+hysteria2://mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj@91.196.32.163:443?security=tls&sni=91.196.32.163&alpn=h3&insecure=1#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D

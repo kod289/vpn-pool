@@ -1,6 +1,6 @@
 v2rayroot_vless: 263 configs
 v2rayroot_vmess: 14 configs
 v2rayroot_ss: 301 configs
-igareck_vless: 100 configs
-igareck_ss: 54 configs
+igareck_vless: 207 configs
+igareck_ss: 107 configs
 artembsk_vless: 102 configs

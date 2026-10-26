@@ -1,1 +1,5 @@
+hysteria2://329e13e4-ee7c-4802-ac72-5fcab79c2402@217.60.72.225:443?sni=forshynewh.duckdns.org#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D
 hysteria2://b3d079ff-b775-4ffe-bac9-41228b08b15b@143.246.211.163:443?sni=fr.gorobsub.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
+hysteria2://b3d079ff-b775-4ffe-bac9-41228b08b15b@143.246.211.163:443?sni=fr.gorobsub.com&alpn=h3#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
+hysteria2://gf1%3Agfhysteria2024@185.156.44.99:443?allowInsecure=1&sni=css.rbxcdn.com&upmbps=10&insecure=1&type=tcp&downmbps=50&nonce=e98RZ2Wn&_t=227da4f0#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+hysteria2://gf1%3Agfhysteria2024@185.156.44.99:443?security=tls&sni=css.rbxcdn.com&alpn=h3&insecure=1#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D

@@ -7,6 +7,7 @@ ss://0828a0bc-8acf-422c-9fac-8ad885a0dbaf@176.119.141.136:8443?security=reality&
 ss://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@104.248.173.190:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#🇬🇧
 ss://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@188.42.89.157:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#Tel-%40Alpha_V2rayip%F0%9F%91%B9%202
 ss://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.7.215:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#Tel-%40ProxyMtAlpha%F0%9F%8D%94%204
+ss://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#Tel-%40ProxyMtAlpha%F0%9F%8D%94%207
 ss://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@57.129.137.57:443?encryption=none&fp=chrome&host=vpn47.cc.cd&path=%2F&security=tls&sni=vpn47.cc.cd&type=ws#🇬🇧
 ss://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@64.227.64.52:443?encryption=none&fp=chrome&host=vpn47.cc.cd&path=%2F&security=tls&sni=vpn47.cc.cd&type=ws#🇨🇦
 ss://0ae6576e-8011-2f4d-ea20-b35d4faddb6e@69.46.46.7:443?path=%2Fws%2F0ae6576e-8011-2f4d-ea20-b35d4faddb6e&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=rvg-production-780b.up.railway.app&fp=chrome&type=ws&allowInsecure=0&sni=rvg-production-780b.up.railway.app#🇺🇸

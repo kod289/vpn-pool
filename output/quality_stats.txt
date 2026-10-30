@@ -1,5 +1,5 @@
-Input: 615
-Quality OK: 612
+Input: 629
+Quality OK: 626
 Removed: 3
 
 Reasons:

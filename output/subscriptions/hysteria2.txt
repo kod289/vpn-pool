@@ -1,0 +1,1 @@
+hysteria2://cJytMmPWpB4JAC-VlzE8rCMhcLznQiLb@31.56.189.198:27017?sni=static.cdnnow.xyz#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20%F0%9F%87%A9%F0%9F%87%AA%20%7C%20%5BBL%5D

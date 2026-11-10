@@ -1,3 +1,0 @@
-hysteria2://5646b5cf-9844-446f-80cf-ccdefb1ba23a@46.8.97.88:443?sni=vie.observation.today&alpn=h3#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-hysteria2://5646b5cf-9844-446f-80cf-ccdefb1ba23a@vieee.observation.today:443?security=tls&sni=vie.observation.today&alpn=h3&insecure=0#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-hysteria2://5646b5cf-9844-446f-80cf-ccdefb1ba23a@vieee.observation.today:443?sni=vie.observation.today&security=tls#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D

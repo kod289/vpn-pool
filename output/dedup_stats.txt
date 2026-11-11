@@ -1,3 +1,3 @@
-Input configs: 1513
-Unique endpoints: 1201
-Removed duplicates: 312
+Input configs: 1023
+Unique endpoints: 822
+Removed duplicates: 201

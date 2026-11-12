@@ -1,4 +1,0 @@
-hysteria2://4b13c29ebe735e47@213.21.232.4:443?sni=mytubeproxy10.duckdns.org#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://4b13c29ebe735e47@213.21.232.4:443?sni=mytubeproxy10.duckdns.org&fp=firefox&alpn=h3#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://4b13c29ebe735e47@mytubeproxy10.duckdns.org:443?alpn=h3&fp=firefox&security=tls&sni=mytubeproxy10.duckdns.org#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://4b13c29ebe735e47@mytubeproxy10.duckdns.org:443?sni=mytubeproxy10.duckdns.org&fp=firefox&security=tls#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D

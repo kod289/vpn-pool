@@ -1,0 +1,2 @@
+hysteria2://7d4a5c8f-0cdb-41b9-8898-807a1b7335e4@84.32.248.163:443?insecure=1&sni=lt-2-lietuva.fantoff.online#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D
+hysteria2://7d4a5c8f-0cdb-41b9-8898-807a1b7335e4@84.32.248.163:443?sni=lt-2-lietuva.fantoff.online&alpn=h3#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D

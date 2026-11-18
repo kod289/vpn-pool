@@ -1,7 +1,7 @@
-Input endpoints: 757
-TCP reachable: 418
-TCP unreachable: 339
-Reachable percentage: 55.2%
-Average latency: 119 ms
-Minimum latency: 5 ms
-Maximum latency: 3512 ms
+Input endpoints: 830
+TCP reachable: 420
+TCP unreachable: 410
+Reachable percentage: 50.6%
+Average latency: 88 ms
+Minimum latency: 6 ms
+Maximum latency: 1465 ms

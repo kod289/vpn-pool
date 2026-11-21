@@ -1,1 +1,1 @@
-hysteria2://9a9f167d-b461-466f-be50-f0ffd598a6f8@48.102.174.174:443?sni=polandchuzhoi.site&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Newark%20%28Central%20Business%20District%29%20%7C%20%5BBL%5D
+hysteria2://7f83bad7-cbcc-45e5-b3c5-75fe4fb52368@45.198.0.42:4443?sni=poland-the-best.moonpaw.space#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20%F0%9F%87%B5%F0%9F%87%B1%20%7C%20%5BBL%5D

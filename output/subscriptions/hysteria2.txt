@@ -1,3 +1,0 @@
-hysteria2://36187bef1c708c82fd4099b9d70116ffd8c0f1f5bfd19cbb319eeb67899714f6@156.246.93.237:443?sni=jpk.wentibuxiaobuda.xyz#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Shibuya%20City%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://9a9f167d-b461-466f-be50-f0ffd598a6f8@germanyafterpool.fun:443?alpn=h3&insecure=0&security=tls&sni=germanyafterpool.fun#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Newark%20%28Central%20Business%20District%29%20%7C%20%5BBL%5D
-hysteria2://9a9f167d-b461-466f-be50-f0ffd598a6f8@germanyafterpool.fun:443?sni=germanyafterpool.fun&security=tls#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Newark%20%28Central%20Business%20District%29%20%7C%20%5BBL%5D
